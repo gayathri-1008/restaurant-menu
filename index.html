@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore the menu, made fresh and served with care.">
+    <title>Our Menu | The Good Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand brand--dark" href="visit.html" aria-label="The Good Table home">
+            <span class="brand__mark" aria-hidden="true">GT</span>
+            <span>THE GOOD TABLE</span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html" aria-current="page">Menu</a>
+            <a href="visit.html">Visit Us</a>
+        </nav>
+    </header>
+
+    <main id="menu" class="menu">
+        <div class="menu__intro">
+            <p class="eyebrow">Fresh. Local. Made with love.</p>
+            <h1 class="menu__title">Our Menu</h1>
+            <p>Find your new favorite, from the first bite to the last.</p>
+        </div>
+
+        <nav class="category-nav" aria-label="Menu categories">
+            <a href="#category-mains" data-category="mains">Mains</a>
+            <a href="#category-sides" data-category="sides">Sides</a>
+            <a href="#category-desserts" data-category="desserts">Desserts</a>
+        </nav>
+
+        <section class="category" id="category-mains" data-category-section="mains">
+            <div class="category__heading">
+                <h2>Mains</h2>
+            </div>
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="menu-card__top">
+                        <h3>Garden Veggie Pasta</h3>
+                        <span class="menu-card__price">$14.50</span>
+                    </div>
+                    <p>Pasta with seasonal vegetables and a light herb sauce.</p>
+                    <span class="diet-tag"><span aria-hidden="true">●</span> Vegetarian</span>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-card__top">
+                        <h3>Crispy Chicken Burger</h3>
+                        <span class="menu-card__price">$13.00</span>
+                    </div>
+                    <p>Crispy chicken, lettuce, tomato, and house sauce.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="category" id="category-sides" data-category-section="sides">
+            <div class="category__heading">
+                <h2>Sides</h2>
+            </div>
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="menu-card__top">
+                        <h3>Truffle Fries</h3>
+                        <span class="menu-card__price">$6.50</span>
+                    </div>
+                    <p>Golden fries with parmesan and herbs.</p>
+                    <span class="diet-tag"><span aria-hidden="true">●</span> Vegetarian</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="category" id="category-desserts" data-category-section="desserts">
+            <div class="category__heading">
+                <h2>Desserts</h2>
+            </div>
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="menu-card__top">
+                        <h3>Chocolate Brownie</h3>
+                        <span class="menu-card__price">$7.00</span>
+                    </div>
+                    <p>Rich chocolate brownie, baked in-house.</p>
+                    <span class="diet-tag"><span aria-hidden="true">●</span> Vegetarian</span>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="brand brand--footer" href="visit.html">
+            <span class="brand__mark" aria-hidden="true">GT</span>
+            <span>THE GOOD TABLE</span>
+        </a>
+        <a class="footer__link" href="visit.html">Visit Us</a>
+        <p>Good food brings us together.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
